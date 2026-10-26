@@ -159,3 +159,51 @@ h2 {
 }
 
 .footer-col a { color: #FAF5EF; }
+
+@media (max-width: 768px) {
+  .header-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 14px;
+  }
+
+  .nav a {
+    margin-left: 0;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #57432E;
+  }
+
+  .nav a:last-child { border-bottom: none; }
+
+  .hero { padding: 80px 0; }
+
+  .hero h1 { font-size: 28px; }
+
+  .hero p { font-size: 16px; }
+
+  .btn {
+    display: block;
+    text-align: center;
+  }
+
+  .cards { flex-direction: column; }
+
+  .card { width: 100%; }
+
+  .about { flex-direction: column; }
+
+  .about-img,
+  .about-text { width: 100%; }
+
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
